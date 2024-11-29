@@ -10,20 +10,20 @@ class CreatePatientTable extends Migration
     {
         $this->forge->addField([
             'id' => [
-                'type'           => 'INT',
-                'unsigned'       => true,
+                'type' => 'INT',
+                'unsigned' => true,
                 'auto_increment' => true,
             ],
             'nom' => [
-                'type'       => 'VARCHAR',
+                'type' => 'VARCHAR',
                 'constraint' => '100',
             ],
             'prenom' => [
-                'type'       => 'VARCHAR',
+                'type' => 'VARCHAR',
                 'constraint' => '100',
             ],
             'genre' => [
-                'type'       => 'VARCHAR',
+                'type' => 'VARCHAR',
                 'constraint' => '100',
             ],
             'dateNaissance' => [
@@ -31,23 +31,23 @@ class CreatePatientTable extends Migration
                 'null' => true,
             ],
             'telephone' => [
-                'type'       => 'VARCHAR',
+                'type' => 'VARCHAR',
                 'constraint' => '15',
             ],
             'email' => [
-                'type'       => 'VARCHAR',
+                'type' => 'VARCHAR',
                 'constraint' => '255',
-                'unique'     => true,
+                'unique' => true,
             ],
             'historiqueMedical' => [
                 'type' => 'TEXT',
                 'null' => true,
             ],
-            
             'motDePasse' => [
                 'type' => 'VARCHAR',
                 'constraint' => '255',
             ],
+            
         ]);
         $this->forge->addKey('id', true);
         $this->forge->createTable('patient');

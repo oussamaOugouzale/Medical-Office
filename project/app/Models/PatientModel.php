@@ -18,6 +18,12 @@ class PatientModel extends Model
         'motDePasse',
     ];
 
+    public function rendezVous()
+    {
+        $rendezVousModel = new \App\Models\RdvModel();
+        return $rendezVousModel->getRendezVousByPatient($this->id);
+    }
+    
     protected $useTimestamps = false; 
     protected $createdField  = 'created_at'; 
     protected $updatedField  = 'updated_at';

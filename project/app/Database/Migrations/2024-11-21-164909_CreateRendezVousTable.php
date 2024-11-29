@@ -10,30 +10,31 @@ class CreateRendezVousTable extends Migration
     {
         $this->forge->addField([
             'id' => [
-                'type'           => 'INT',
-                'unsigned'       => true,
+                'type' => 'INT',
+                'unsigned' => true,
                 'auto_increment' => true,
             ],
             'dateHeure' => [
                 'type' => 'DATETIME',
             ],
             'status' => [
-                'type'       => 'ENUM',
+                'type' => 'ENUM',
                 'constraint' => ['Confirmé', 'Annulé'],
-                'default'    => 'Confirmé',
+                'default' => 'Confirmé',
             ],
-            'idPatient' => [
-                'type'       => 'INT',
-                'unsigned'   => true,
+            'patient_id' => [
+                'type' => 'INT',
+                'unsigned' => true,
             ],
-            'idMedecin' => [
-                'type'       => 'INT',
-                'unsigned'   => true,
+            'medecin_id' => [
+                'type' => 'INT',
+                'unsigned' => true,
             ],
+
         ]);
         $this->forge->addKey('id', true);
-        $this->forge->addForeignKey('idPatient', 'patient', 'id', 'CASCADE', 'CASCADE');
-        $this->forge->addForeignKey('idMedecin', 'medecin', 'id', 'CASCADE', 'CASCADE');
+        $this->forge->addForeignKey('patient_id', 'patient', 'id', 'CASCADE', 'CASCADE');
+        $this->forge->addForeignKey('medecin_id', 'medecin', 'id', 'CASCADE', 'CASCADE');
         $this->forge->createTable('rendezvous');
     }
 

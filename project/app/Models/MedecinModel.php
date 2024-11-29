@@ -20,6 +20,13 @@ class MedecinModel extends Model
         'motDePasse',
     ];
 
+    public function rendezVous()
+    {
+        $rendezVousModel = new \App\Models\RdvModel();
+        return $rendezVousModel->getRendezVousByMedecin($this->id);
+    }
+    
+
     protected $useTimestamps = false; // Facultatif
     protected $createdField = 'created_at';
     protected $updatedField = 'updated_at';
