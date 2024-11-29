@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.doctorProfile {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.doctorProfile .header {
+    background-color: #F2F6F6;
+    width: 100%;
+    display: flex;
+    padding: 18px 0 40px 0;
+}
+
+.doctorProfile .header h1 {
+    font-size: 44px;
+    margin: 30px auto;
+    color: #272B41;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+}
+
+.doctorProfile .doctorInformations {
+    border: 1px solid #ebeeff;
+    border-radius: 3px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+    width: 85%;
+}
+
+.doctorProfile .doctorInformations .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.doctorProfile .doctorInformations .info .firstPart img {
+    width: 10rem;
+    max-height: 150px;
+    border-radius: 4px;
+}
+
+.doctorProfile .doctorInformations .info .firstPart {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 50%;
+}
+
+.doctorProfile .doctorInformations .info .firstPart h2 {
+    color: #272B41;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.doctorProfile .doctorInformations .info .firstPart p {
+    color: #757575;
+    font-size: 14px;
+    font-weight: initial;
+}
+
+.doctorProfile .doctorInformations .info .firstPart .details {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.doctorProfile .doctorInformations .info .firstPart .details>:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.doctorProfile .doctorInformations .info .firstPart .details>:nth-child(2)>:nth-child(1) {
+    color: #20C0F3;
+}
+
+.doctorProfile .doctorInformations .info .firstPart .details>:nth-child(2)>:nth-child(3) {
+    margin-top: -6px;
+}
+
+.doctorProfile .doctorInformations .info .firstPart .details>:nth-child(2)>:nth-child(4) {
+    display: flex;
+    flex-direction: row;
+}
+
+.doctorProfile .doctorInformations .info .firstPart .details>:nth-child(2)>:nth-child(4) span {
+    color: #757575;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.doctorProfile .doctorInformations .info .firstPart .details>:nth-child(2)>:nth-child(4) .direction {
+    color: #09E5AB;
+    font-size: 14px;
+    font-weight: 650;
+}
+
+.doctorProfile .doctorInformations .info .firstPart .details>:nth-child(2) ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 24px;
+}
+
+.doctorProfile .doctorInformations .info .firstPart .details>:nth-child(2) ul li a img {
+    width: 40px;
+    border-radius: 6px;
+}
+
+.doctorProfile .doctorInformations .info .firstPart .details>:nth-child(2) .services {
+    gap: 9px;
+    margin-top: 10px;
+}
+
+.doctorProfile .doctorInformations .info .firstPart .details>:nth-child(2)>:nth-child(6) span {
+    font-weight: initial;
+    font-size: 12px;
+    color: #757575;
+    border: 0.5px solid #757575;
+    padding: 3px 13px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.doctorProfile .doctorInformations .info .secondPart {
+    width: 20%;
+    padding: 17px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.doctorProfile .doctorInformations .info .secondPart ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.doctorProfile .doctorInformations .info .secondPart ul li {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: #4E4852;
+    font-weight: initial;
+    font-size: 14px;
+}
+
+.doctorProfile .doctorInformations .info .secondPart button {
+    padding: 7px 22px;
+    border-radius: 4px;
+    background-color: #20c0f3;
+    color: white;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.doctorProfile .doctorInformations .info .secondPart button:hover {
+    background-color: #28cdff;
+}
+
+.doctorProfile  .professionalExperiences {
+    border: 1px solid #ebeeff;
+    border-radius: 3px;
+    margin: 40px auto;
+    margin-top: -70px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+    width: 85%;
+}
+
+
+/* navigation tabs */
+
+.body .first div h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #272B41;
+}
+.body .first >:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.body .first div p{
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    color: #212529;
+    width: 74%;
+    font-weight: normal;
+}
+
+
+.circle{
+    background-color: rgba(32, 192, 243, .2);
+    height: 12px;
+    width: 12px;
+    border: 2px solid #20c0f3;
+    border-radius: 50%;
+}
+
+.body .first .info-block{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.body .first .info-block h1{
+    margin-bottom: 18px;
+}
+
+.body .first .info-block .education{
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
+.body .first .info-block .education{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 0 10px 0 10px;
+}
+.body .first .info-block .education .content{
+    display: flex;
+    flex-direction: column;
+    margin-top: -5px;
+}
+
+.body .first .info-block .education .content h3{
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    color: #2E3842;
+}
+
+.body .first .info-block .education .content span{
+    font-family: 'Inter', sans-serif;
+    color: #757575;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.body .first .info-block .education .content >:nth-child(3){
+    font-size: 13px;
+}
+
+.body .first .info-block .progress{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body .first .info-block .progress .vertical-line{
+    height: 70px;
+    background-color: #d5d5d5;
+    width: 1.4px;
+}
+.body .first .min-line .progress .vertical-line{
+    height: 40px;
+    background-color: #d5d5d5;
+    width: 1.4px;
+}
+.body .first .awards .progress .vertical-line{
+    height: 100px;
+}
+.body .first .awards .education .content >:nth-child(1){
+    color: #20C0F3;
+    font-size: 15px;
+    font-weight: 600;
+}
+.body .first .awards .education .content >:nth-child(2){
+    color: #272B41;
+    font-size: 16px;
+    font-weight: 500;
+}
+.body .first .awards .education .content >:nth-child(3){
+    color: #757575;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.body .first .services ul li{
+    flex-direction : row;
+    gap: 5px;
+    width: 30%;
+    border: 1px solid red;
+}
+.body .first .services ul{
+    border: 1px solid gray;
+    width: 80%;
+}
+
+.body .first .services li img{
+    width: 20px;
+}
+.body .first .services li{
+    list-style: none;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.body .first .services .elements{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.body .first .services .elements li{
+    color: #212529;
+    font-size: 15px;
+    font-weight: normal;
+}
+

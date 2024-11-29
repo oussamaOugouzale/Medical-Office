@@ -1,0 +1,167 @@
+/* .bannerContainer {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    padding: 20px 40px;
+    gap: 20px;
+    background: #F2F6F6;
+}
+
+.bannerContainer .titlePart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 45px;
+    padding-bottom: 180px;
+    gap: 22px;
+}
+
+.bannerContainer .titlePart h1,
+.bannerContainer .titlePart span {
+    font-size: 49px;
+    font-weight: bold;
+    line-height: 59px;
+    color: #272B41;
+    letter-spacing: 2px;
+}
+
+.bannerContainer .titlePart span {
+    color: #0E82FD;
+}
+
+.bannerContainer .titlePart p {
+    color: #6B7280;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 19px;
+}
+
+.bannerContainer .titlePart svg {
+    translate: calc(40rem);
+    margin-bottom: -44px;
+}
+
+
+/* Search part 
+
+.searchPart {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    width: auto;
+    position: absolute;
+    bottom: 0;
+    left: 6rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.searchPart div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 9px;
+    padding: 6px 0;
+    border-right: 1px solid #8894AE;
+}
+
+.searchPart div input {
+    padding: 4px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+}
+
+.searchPart div input::placeholder {
+    color: #8894AE;
+}
+
+.searchPart>:nth-child(1) input {
+    width: 16rem;
+}
+.searchPart>:nth-child(1) input:focus{
+    outline: none;
+    border: none;
+}
+
+.searchPart>:nth-child(2) select {
+    padding-right: 40px;
+    margin-left: -10px;
+    width: auto;
+}
+
+.searchPart Button {
+    margin-left: 20px;
+    padding: 9px 20px;
+    border-radius: 6px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    transition: 0.8s;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+    background-color: #0E82FD;
+    border: 1px solid #0E82FD;
+}
+
+.searchPart Button a {
+    color: white;
+}
+
+.searchPart Button:focus,
+.searchPart Button:hover {
+    box-shadow: inset 0 0 0 2em white;
+}
+
+.searchPart Button a:focus,
+.searchPart Button a:hover {
+    color: #0E82FD;
+}
+
+.specialites{
+    border: none;
+    font-size: 15px;
+    color: #8894AE;
+    margin-right: 10px;
+}
+.relative input{
+    border: 1px solid rgb(84, 53, 53);
+    width: 11rem;
+    margin-left: 18px;
+}
+
+.borderNone div{
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */

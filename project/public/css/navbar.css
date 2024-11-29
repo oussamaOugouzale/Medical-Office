@@ -1,0 +1,142 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 40px;
+    background: #F2F6F6;
+}
+
+.navbar a {
+    color: #1F2937;
+}
+
+.navbar .ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 15px;
+}
+
+.current a {
+    color: #0696d6;
+
+}
+
+.navbar .ul li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.navbar .ul li svg {
+    margin-top: 3.4px;
+}
+
+.navbar img {
+    width: 180px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.connection {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.connection button {
+    padding: 9px 12px;
+    border-radius: 6px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    transition: 0.8s;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+
+.connection button a {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    align-items: center;
+    font-weight: 600;
+}
+
+.connection>:first-child {
+    background-color: white;
+    border: 1px solid #E5E7EB;
+}
+
+.connection>:first-child:hover svg {
+    filter: brightness(0) invert(1);
+}
+
+.connection>:first-child:hover a {
+    color: white;
+}
+
+.connection>:first-child:hover,
+.connection>:first-child:focus {
+    box-shadow: inset 0 0 0 2em #0E82FD;
+}
+
+.connection>:nth-child(2) {
+    background-color: #0E82FD;
+    border: 1px solid #0E82FD;
+}
+
+.connection> :nth-child(2) a {
+    color: white;
+}
+
+.connection> :nth-child(2):hover svg {
+    stroke: #0E82FD;
+}
+
+.connection> :nth-child(2):hover,
+.connection> :nth-child(2):focus {
+    box-shadow: inset 0 0 0 2em white;
+}
+
+.connection> :nth-child(2):hover a {
+    color: #0E82FD;
+}
+
+.connection svg {
+    width: 18px;
+    color: gray;
+}  */
