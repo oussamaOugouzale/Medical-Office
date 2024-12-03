@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -79,29 +77,24 @@
                 </div>
                 <div class="w-full md:w-1/2">
                     <div class="bg-white shadow-md rounded px-6 py-6 mb-4">
+                        <div class="my-4">
+                        <a href="<?= site_url('auth/facebookRegister') ?>" class="block">
+    <button
+        class="w-full bg-blue-600 text-white py-2 px-4 rounded flex items-center justify-center">
+        <i class="fab fa-facebook-f mr-2"></i> S'inscrire avec Facebook
+    </button>
+</a>
+
+                            <a href="#" class="block">
+                                <button
+                                    class="w-full text-center py-2 my-2 border flex items-center justify-center border-slate-200 rounded-lg text-slate-700 hover:border-slate-400 hover:text-slate-900 hover:shadow transition duration-150">
+                                    <img src="https://www.svgrepo.com/show/355037/google.svg" class="w-5 h-5 mr-2"
+                                        alt="Google Icon">
+                                    <span>S'inscrire avec Google</span>
+                                </button>
+                            </a>
                         <form action="<?= route_to('register') ?>" method="post" class="form">
                             <?= csrf_field() ?>
-                            <div class="my-4">
-                                <a href="#" class="block">
-                                    <button
-                                        class="w-full text-center text-white py-2 my-2 border flex items-center justify-center bg-blue-500 border-slate-200 rounded-lg text-slate-700 hover:border-slate-400 hover:shadow transition duration-150">
-                                        <svg class="w-4 h-4 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                                            fill="currentColor" viewBox="0 0 8 19">
-                                            <path fill-rule="evenodd"
-                                                d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
-                                                clip-rule="evenodd" />
-                                        </svg>
-                                        <span>S'inscrire avec Facebook</span>
-                                    </button>
-                                </a>
-                                <a href="#" class="block">
-                                    <button
-                                        class="w-full text-center py-2 my-2 border flex items-center justify-center border-slate-200 rounded-lg text-slate-700 hover:border-slate-400 hover:text-slate-900 hover:shadow transition duration-150">
-                                        <img src="https://www.svgrepo.com/show/355037/google.svg" class="w-5 h-5 mr-2"
-                                            alt="Google Icon">
-                                        <span>S'inscrire avec Google</span>
-                                    </button>
-                                </a>
                             </div>
                             <div class="inline-flex items-center justify-center w-full mb-3">
                                 <hr class="w-3/4 h-px my-2 bg-gray-300 border-0">
@@ -137,6 +130,12 @@
                                         </div>
                                     <?php endif; ?>
 
+                                    <?php if (session()->getFlashdata('error')): ?>
+                            <div class="alert alert-danger">
+                                <?= session()->getFlashdata('error'); ?>
+                            </div>
+                        <?php endif; ?>
+
                                 </div>
                                 <label for="UserName"
                                     class="relative block overflow-hidden rounded-md border border-gray-200 px-3 pt-2 shadow-sm focus-within:border-gray-300 focus-within:ring-1 focus-within:ring-gray-300">
@@ -160,6 +159,20 @@
                                     <div class="text-red-600 text-sm mt-1"><?= session('validation.prenom') ?></div>
                                 <?php endif; ?>
 
+                                <label for="UserAge"
+                                    class="relative block overflow-hidden rounded-md border border-gray-200 px-3 pt-2 shadow-sm focus-within:border-gray-300 focus-within:ring-1 focus-within:ring-gray-300">
+                                    <input type="number" name="age" placeholder="Age" value="<?= old('age') ?>" min="18"
+                                        max="100" class="peer h-8 w-full border-none bg-transparent p-0 placeholder-transparent
+                                    focus:outline-none focus:ring-0 sm:text-sm" />
+                                    <span
+                                        class="absolute left-3 top-2 -translate-y-1/2 text-xs text-gray-700 transition-all peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-sm peer-focus:top-2 peer-focus:text-xs">Age</span>
+                                </label>
+
+                                <?php if (session('validation.age')): ?>
+                                    <div class="text-red-600 text-sm mt-1"><?= session('validation.age') ?></div>
+                                <?php endif; ?>
+
+
                                 <label for="UserEmail"
                                     class="relative block overflow-hidden rounded-md border border-gray-200 px-3 pt-2 shadow-sm focus-within:border-gray-300 focus-within:ring-1 focus-within:ring-gray-300">
                                     <input type="email" name="email" id="UserEmail" placeholder="Email"
@@ -169,7 +182,7 @@
                                         class="absolute left-3 top-2 -translate-y-1/2 text-xs text-gray-700 transition-all peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-sm peer-focus:top-2 peer-focus:text-xs">Email</span>
                                 </label>
                                 <?php if (session('validation.email')): ?>
-                                    <div class="text-red-600 text-sm mt-1"><?=session('validation.email') ?></div>
+                                    <div class="text-red-600 text-sm mt-1"><?= session('validation.email') ?></div>
                                 <?php endif; ?>
 
                                 <label for="phone"
@@ -182,7 +195,7 @@
                                         de mobile</span>
                                 </label>
                                 <?php if (session('validation.numéro')): ?>
-                                    <div class="text-red-600 text-sm mt-1"><?=session('validation.numéro') ?></div>
+                                    <div class="text-red-600 text-sm mt-1"><?= session('validation.numéro') ?></div>
                                 <?php endif; ?>
 
                                 <label for="UserPassword"
@@ -198,34 +211,7 @@
                                     <div class="text-red-600 text-sm mt-1"><?= session('validation.password') ?></div>
                                 <?php endif; ?>
 
-                                <div class="flex flex-col items-center">
-                                    <div class="text-sm text-gray-700 mb-1">Merci de choisir votre type d'inscription
-                                    </div>
-                                    <div class="flex space-x-2">
-                                        <div class="flex ">
-                                            <input id="type-patient" type="radio" value="patient" name="user_type"
-                                                required
-                                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500"
-                                                <?= old('user_type') === 'patient' ? 'checked' : '' ?>>
-                                            <label for="type-patient"
-                                                class="ml-1 text-xs font-medium text-gray-800">Patient</label>
-                                        </div>
-                                        <div class="flex ">
-                                            <input id="type-doctor" type="radio" value="doctor" name="user_type"
-                                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500"
-                                                <?= old('user_type') === 'doctor' ? 'checked' : '' ?>>
-                                            <label for="type-doctor"
-                                                class="ml-1 text-xs font-medium text-gray-800">Médecin</label>
-                                        </div>
-                                        <div class="flex ">
-                                            <input id="type-secretaire" type="radio" value="secretaire" name="user_type"
-                                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500"
-                                                <?= old('user_type') === 'secretaire' ? 'checked' : '' ?>>
-                                            <label for="type-secretaire"
-                                                class="ml-1 text-xs font-medium  text-gray-800">Secrétaire</label>
-                                        </div>
-                                    </div>
-                                </div>
+
                                 <!-------------------------------------------------------------------------------------->
 
                                 <div class="flex items-start my-4">
@@ -254,7 +240,7 @@
                                 </div>
 
                                 <script>
-                                    
+
 
                                     document.getElementById('menu-btn').addEventListener('click', function () {
                                         document.getElementById('mobile-menu').classList.toggle('hidden');

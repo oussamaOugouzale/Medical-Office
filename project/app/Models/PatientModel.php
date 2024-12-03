@@ -6,43 +6,68 @@ use CodeIgniter\Model;
 
 class PatientModel extends Model
 {
-    protected $table = 'patient'; 
+    protected $table = 'patient';
     protected $primaryKey = 'id';
 
     protected $allowedFields = [
+        'facebook_id',
         'nom',
         'prenom',
         'genre',
+        'dateNaissance',
         'telephone',
         'email',
+        'age',
+        'photo',
+        'historiqueMedical',
         'motDePasse',
+        'is_active',
     ];
+
+
 
     public function rendezVous()
     {
         $rendezVousModel = new \App\Models\RdvModel();
         return $rendezVousModel->getRendezVousByPatient($this->id);
     }
-    
-    protected $useTimestamps = false; 
-    protected $createdField  = 'created_at'; 
-    protected $updatedField  = 'updated_at';
+
+    protected $useTimestamps = false;
+    protected $createdField = 'created_at';
+    protected $updatedField = 'updated_at';
 
     protected $validationRules = [
-        'nom'              => 'required|string|max_length[100]',
-        'prenom'           => 'required|string|max_length[100]',
-        'genre'           => 'required|string|max_length[100]',
-        'telephone'        => 'required|string|max_length[15]',
-        'email'            => 'required|valid_email|is_unique[patient.email]',
-        'motDePasse'       => 'required|string|min_length[8]',
+        'facebook_id' => 'permit_empty|is_unique[patient.facebook_id]',
+        'nom' => 'required',
+        'prenom' => 'permit_empty',
+        'genre' => 'permit_empty',
+        'dateNaissance' => 'permit_empty',
+        'age' => 'permit_empty',
+        'photo' => 'permit_empty',
+        'telephone' => 'permit_empty',
+        'email' => 'required|valid_email',
+        'historiqueMedical' => 'permit_empty',
+        'motDePasse' => 'permit_empty',
+        'is_active' => 'permit_empty|in_list[0,1]',
     ];
 
     protected $validationMessages = [
-        'email' => [
-            'is_unique' => 'Cette adresse email est déjà utilisée.',
+        'facebook_id' => [
+            'is_unique' => 'Cet ID Facebook est déjà utilisé.',
         ],
-        'motDePasse' => [
-            'min_length' => 'Le mot de passe doit contenir au moins 8 caractères.',
+        'email' => [
+            'is_unique' => 'Cet email est déjà utilisé.',
         ],
     ];
+
+    public function createOrUpdateUser($userData)
+    {
+        $existingUser = $this->where('facebook_id', $userData['facebook_id'])->first();
+
+        if ($existingUser) {
+            $this->update($existingUser['id'], $userData);
+        } else {
+            $this->save($userData);
+        }
+    }
 }

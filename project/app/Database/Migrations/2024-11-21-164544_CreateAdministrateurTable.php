@@ -38,6 +38,6 @@ class CreateAdministrateurTable extends Migration
 
     public function down()
     {
-        $this->forge->dropTable('administrateur');
+        $this->forge->dropTable('z');
     }
 }

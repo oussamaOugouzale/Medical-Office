@@ -38,4 +38,5 @@ class MedecinController extends BaseController
 
         return view('medecin/list', ['medecins' => $medecins]);
     }
+    
 }

@@ -1,0 +1,187 @@
+CRITICAL - 2024-12-01 00:00:14 --> ErrorException: Undefined variable $user
+[Method: GET, Route: patient-home]
+in APPPATH\Views\patient\pat-appointments.php on line 107.
+ 1 APPPATH\Views\patient\pat-appointments.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\Users\\Admin\\Desktop\\Medical Office\\project\\app\\Views\\patient\\pat-appointments.php', 107)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\app\\Views\\patient\\pat-appointments.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('patient/pat-appointments', [], true)
+ 5 APPPATH\Controllers\PatientController.php(13): view('patient/pat-appointments')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PatientController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-01 22:58:21 --> Error: Call to undefined function user()
+[Method: GET, Route: patient-profile-settings]
+in APPPATH\Views\patient\pat-profile-settings.php on line 105.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('patient/pat-profile-settings', [], true)
+ 4 APPPATH\Controllers\PatientController.php(14): view('patient/pat-profile-settings')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PatientController->settings()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+ERROR - 2024-12-01 23:13:39 --> mysqli_sql_exception: Can't create table `cabinet`.`paiement` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\Users\Admin\Desktop\Medical Office\project\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\Users\Admin\Desktop\Medical Office\project\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\Users\Admin\Desktop\Medical Office\project\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\Users\Admin\Desktop\Medical Office\project\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\Users\Admin\Desktop\Medical Office\project\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\Users\Admin\Desktop\Medical Office\project\app\Database\Migrations\2024-11-21-164934_CreatePaimentTable.php(40): CodeIgniter\Database\Forge->createTable('paiement')
+#5 C:\Users\Admin\Desktop\Medical Office\project\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreatePaiementTable->up()
+#6 C:\Users\Admin\Desktop\Medical Office\project\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Admin\Desktop\Medical Office\project\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Admin\Desktop\Medical Office\project\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Admin\Desktop\Medical Office\project\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Admin\Desktop\Medical Office\project\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\Users\Admin\Desktop\Medical Office\project\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\Users\Admin\Desktop\Medical Office\project\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-12-01 23:14:52 --> mysqli_sql_exception: Can't create table `cabinet`.`paiement` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\Users\Admin\Desktop\Medical Office\project\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\Users\Admin\Desktop\Medical Office\project\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\Users\Admin\Desktop\Medical Office\project\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\Users\Admin\Desktop\Medical Office\project\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\Users\Admin\Desktop\Medical Office\project\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\Users\Admin\Desktop\Medical Office\project\app\Database\Migrations\2024-11-21-164934_CreatePaimentTable.php(40): CodeIgniter\Database\Forge->createTable('paiement')
+#5 C:\Users\Admin\Desktop\Medical Office\project\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreatePaiementTable->up()
+#6 C:\Users\Admin\Desktop\Medical Office\project\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Admin\Desktop\Medical Office\project\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Admin\Desktop\Medical Office\project\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Admin\Desktop\Medical Office\project\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Admin\Desktop\Medical Office\project\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\Users\Admin\Desktop\Medical Office\project\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\Users\Admin\Desktop\Medical Office\project\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-12-01 23:15:38 --> mysqli_sql_exception: Can't create table `cabinet`.`paiment` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\Users\Admin\Desktop\Medical Office\project\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\Users\Admin\Desktop\Medical Office\project\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\Users\Admin\Desktop\Medical Office\project\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\Users\Admin\Desktop\Medical Office\project\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\Users\Admin\Desktop\Medical Office\project\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\Users\Admin\Desktop\Medical Office\project\app\Database\Migrations\2024-11-21-164934_CreatePaimentTable.php(40): CodeIgniter\Database\Forge->createTable('paiment')
+#5 C:\Users\Admin\Desktop\Medical Office\project\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreatePaiementTable->up()
+#6 C:\Users\Admin\Desktop\Medical Office\project\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Admin\Desktop\Medical Office\project\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Admin\Desktop\Medical Office\project\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Admin\Desktop\Medical Office\project\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Admin\Desktop\Medical Office\project\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\Users\Admin\Desktop\Medical Office\project\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\Users\Admin\Desktop\Medical Office\project\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-12-01 23:16:28 --> mysqli_sql_exception: Can't create table `cabinet`.`paiment` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\Users\Admin\Desktop\Medical Office\project\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\Users\Admin\Desktop\Medical Office\project\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\Users\Admin\Desktop\Medical Office\project\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\Users\Admin\Desktop\Medical Office\project\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\Users\Admin\Desktop\Medical Office\project\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\Users\Admin\Desktop\Medical Office\project\app\Database\Migrations\2024-11-21-164934_CreatePaimentTable.php(40): CodeIgniter\Database\Forge->createTable('paiment')
+#5 C:\Users\Admin\Desktop\Medical Office\project\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreatePaimentTable->up()
+#6 C:\Users\Admin\Desktop\Medical Office\project\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Admin\Desktop\Medical Office\project\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Admin\Desktop\Medical Office\project\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Admin\Desktop\Medical Office\project\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Admin\Desktop\Medical Office\project\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\Users\Admin\Desktop\Medical Office\project\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\Users\Admin\Desktop\Medical Office\project\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-12-01 23:31:33 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: patient/dashboard]
+in APPPATH\Views\patient\pat-appointments.php on line 117.
+ 1 APPPATH\Views\patient\pat-appointments.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\Admin\\Desktop\\Medical Office\\project\\app\\Views\\patient\\pat-appointments.php', 117)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\app\\Views\\patient\\pat-appointments.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('patient/pat-appointments', [], true)
+ 5 APPPATH\Controllers\PatientController.php(85): view('patient/pat-appointments', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PatientController->appointment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-01 23:32:48 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('css"
+[Method: GET, Route: %7B%7B%20asset%28%27css/navbar.css%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'css/navbar.css\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'css/navbar.css\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-01 23:32:48 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('css"
+[Method: GET, Route: %7B%7B%20asset%28%27css/register.css%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'css/register.css\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'css/register.css\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-01 23:32:48 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('images"
+[Method: GET, Route: %7B%7B%20asset%28%27images/doccure.png%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'images/doccure.png\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'images/doccure.png\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-01 23:33:31 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "patient/dashboard" cannot be found.
+[Method: POST, Route: send-login-form]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('patient/dashboard')
+ 2 APPPATH\Controllers\LoginController.php(75): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-01 23:40:49 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+[Method: GET, Route: patient/dashboard]
+in SYSTEMPATH\HTTP\SiteURI.php on line 407.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(381): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\patient\pat-appointments.php(117): base_url(null)
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\app\\Views\\patient\\pat-appointments.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('patient/pat-appointments', [], true)
+ 7 APPPATH\Controllers\PatientController.php(85): view('patient/pat-appointments', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PatientController->appointment()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-01 23:43:12 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+[Method: GET, Route: patient/dashboard]
+in SYSTEMPATH\HTTP\SiteURI.php on line 407.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(381): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\patient\pat-appointments.php(117): base_url(null)
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\app\\Views\\patient\\pat-appointments.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('patient/pat-appointments', [], true)
+ 7 APPPATH\Controllers\PatientController.php(85): view('patient/pat-appointments', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PatientController->appointment()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')

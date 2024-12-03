@@ -6,8 +6,8 @@ use CodeIgniter\Model;
 
 class MedecinModel extends Model
 {
-    protected $table = 'medecin'; 
-    protected $primaryKey = 'id'; 
+    protected $table = 'medecin';
+    protected $primaryKey = 'id';
 
     protected $allowedFields = [
         'nom',
@@ -25,7 +25,7 @@ class MedecinModel extends Model
         $rendezVousModel = new \App\Models\RdvModel();
         return $rendezVousModel->getRendezVousByMedecin($this->id);
     }
-    
+
 
     protected $useTimestamps = false; // Facultatif
     protected $createdField = 'created_at';
@@ -48,4 +48,12 @@ class MedecinModel extends Model
             'min_length' => 'Le mot de passe doit contenir au moins 8 caractères.',
         ],
     ];
+
+
+    public function getCoordonnees()
+    {
+        $coordonneesModel = new \App\Models\CoordonneesModel();
+
+        return $coordonneesModel->where('doctor_id', $this->id)->findAll();
+    }
 }

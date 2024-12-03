@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -81,10 +80,19 @@
                             <a href="<?= base_url('register-form') ?>" class="underline text-blue-500">S'inscrire</a>
                         </div>
                         <div class="mb-4">
-                            <button
-                                class="w-full bg-blue-600 text-white py-2 px-4 rounded flex items-center justify-center">
-                                <i class="fab fa-facebook-f mr-2"></i> Se connecter avec Facebook
-                            </button>
+                            <a href="<?= site_url('auth/facebookLogin') ?>" class="block">
+                                <button
+                                    class="w-full text-center text-white py-2 my-2 border flex items-center justify-center bg-blue-500 border-slate-200 rounded-lg text-slate-700 hover:border-slate-400 hover:shadow transition duration-150">
+                                    <svg class="w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                        viewBox="0 0 8 19">
+                                        <path
+                                            d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" />
+                                    </svg>
+                                    <span>Se connecter avec Facebook</span>
+                                </button>
+                            </a>
+
+
                             <button
                                 class="w-full bg-white text-gray-700 py-2 px-4 rounded flex items-center justify-center mt-2 border">
                                 <img src="https://www.svgrepo.com/show/355037/google.svg" class="mr-2" width="20"
@@ -98,6 +106,25 @@
                                 <strong class="font-bold">Succès!</strong>
                                 <span class="block sm:inline"><?= session()->get('user_added') ?></span>
 
+                            </div>
+                        <?php endif; ?>
+
+                        <?php if (session()->getFlashdata('errorLoginExecption')): ?>
+                            <div class="alert alert-danger">
+                                <?= session()->getFlashdata('errorLoginExecption'); ?>
+                            </div>
+                        <?php endif; ?>
+                        <?php if (session()->getFlashdata('errorLogin')): ?>
+                            <div class="alert alert-danger">
+                                <?= session()->getFlashdata('errorLoginExecption'); ?>
+                            </div>
+                        <?php endif; ?>
+
+
+
+                        <?php if (session()->getFlashdata('success')): ?>
+                            <div class="alert alert-success">
+                                <?= session()->getFlashdata('success'); ?>
                             </div>
                         <?php endif; ?>
 

@@ -72,7 +72,7 @@
                     <ul class="nav header-navbar-rht">
                         <?php if (session()->has('patient_logged_in')): ?>
                             <li class="nav-item">
-                                <a class="nav-link header-login" href="<?= route_to('pat-appointments') ?>"><img
+                                <a class="nav-link header-login" href="<?= route_to('patient/dashboard') ?>"><img
                                         src="<?= base_url('assets/img/icons/user-circle.svg') ?>" alt="img">Mon Compte </a>
                             </li>
                         <?php elseif (session()->has('doctor_logged_in')): ?>
@@ -87,6 +87,7 @@
                                     Inscription </a>
                             </li>
                         <?php endif; ?>
+
                     </ul>
                 </nav>
             </div>
@@ -162,7 +163,6 @@
                                                     <option value="120">Addictologue</option>
                                                     <option value="121">Algologue</option>
                                                     <option value="89">Allergologue</option>
-                                                    <!-- Ajouter d'autres options si nécessaire -->
                                                 </optgroup>
                                             </select>
                                         </div>

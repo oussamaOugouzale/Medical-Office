@@ -14,6 +14,12 @@ class CreatePatientTable extends Migration
                 'unsigned' => true,
                 'auto_increment' => true,
             ],
+            'facebook_id' => [
+                'type' => 'VARCHAR',
+                'constraint' => '255',
+                'unique' => true,
+                'null' => true,
+            ],
             'nom' => [
                 'type' => 'VARCHAR',
                 'constraint' => '100',
@@ -25,6 +31,7 @@ class CreatePatientTable extends Migration
             'genre' => [
                 'type' => 'VARCHAR',
                 'constraint' => '100',
+                'null' => true,
             ],
             'dateNaissance' => [
                 'type' => 'DATE',
@@ -33,6 +40,7 @@ class CreatePatientTable extends Migration
             'telephone' => [
                 'type' => 'VARCHAR',
                 'constraint' => '15',
+                'null' => true,
             ],
             'email' => [
                 'type' => 'VARCHAR',
@@ -43,12 +51,28 @@ class CreatePatientTable extends Migration
                 'type' => 'TEXT',
                 'null' => true,
             ],
+            'age' => [
+                'type' => 'INT',
+                'null' => true,
+            ],
+            'photo' => [
+                'type' => 'VARCHAR',
+                'constraint' => 400,
+                'null' => true,
+            ],
             'motDePasse' => [
                 'type' => 'VARCHAR',
                 'constraint' => '255',
+                'null' => true,
             ],
-            
+            'is_active' => [
+                'type' => 'BOOLEAN',
+                'default' => true, 
+                'null' => false,
+            ],
+
         ]);
+
         $this->forge->addKey('id', true);
         $this->forge->createTable('patient');
     }

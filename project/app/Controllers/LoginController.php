@@ -13,6 +13,10 @@ class LoginController extends BaseController
     {
         return view('login');
     }
+    public function test()
+    {
+        echo "hi";
+    }
 
     public function login()
     {
@@ -34,8 +38,10 @@ class LoginController extends BaseController
             'administrateur' => new AdminModel(),
             'patient' => new PatientModel(),
             'medecin' => new MedecinModel(),
-            'secretaire' => new SecretaireModel(),
         ];
+
+        $patientModel = new PatientModel();
+
 
         $emailFound = false; // Flag pour savoir si un email correspondant existe
         foreach ($userTypes as $role => $model) {
@@ -56,11 +62,43 @@ class LoginController extends BaseController
                         case 'administrateur':
                             return redirect()->route('admin-home');
                         case 'patient':
-                            return redirect()->route('patient-home');
+                            $patient = $patientModel->where('email', $email)->first();
+
+                            // Vérifiez si le patient existe
+                            if ($patient) {
+                                // Récupérer le chemin de la photo à partir de la base de données
+                                $photoFileName = $patient['photo']; // Cela devrait être 'uploads/1733177444_cropped-abdelhak-Photoroom.png'
+
+                                // Vérifiez si le nom du fichier n'est pas vide
+                                if (!empty($photoFileName)) {
+                                    // Construire l'URL complète du fichier
+                                    $photoUrl = $photoFileName; // URL dynamique pour accéder au fichier
+                                } else {
+                                    // Image par défaut si aucune photo n'est définie
+                                    $photoUrl = 'uploads/default.jpg'; // Image par défaut dans le répertoire public
+                                }
+                            } else {
+                                // Si le patient n'est pas trouvé, gérer le cas (par exemple, définir une image par défaut)
+                                $photoUrl = 'uploads/default.jpg'; // Image par défaut si le patient n'existe pas
+                            }
+
+                            session()->set('patient_logged_in', true);
+
+
+
+
+                            session()->set('patient', [
+                                'id' => $patient['id'],
+                                'nom' => $patient['nom'],
+                                'prenom' => $patient['prenom'],
+                                'email' => $patient['email'],
+                                'photo' => $photoUrl,
+                                'isLoggedIn' => true,
+                            ]);
+
+                            return redirect()->route(route: 'patient/dashboard');
                         case 'medecin':
                             return redirect()->route('medecin-home');
-                        case 'secretaire':
-                            return redirect()->route('secretaire-home');
                     }
                 } else {
                     // Mot de passe incorrect
@@ -88,7 +126,7 @@ class LoginController extends BaseController
     public function logout()
     {
         session()->destroy();
-        return redirect()->route('login-page');
+        return redirect()->route('loginForm');
     }
 
     public function create()
