@@ -160,7 +160,7 @@ class MedecinController extends BaseController
             $rdvModel->update($rdvId, ['etat' => 'accepte']);
             return $this->response->setJSON(['success' => true, 'message' => 'Rendez-vous accepté avec succès']);
         }
-        return $this->response->setJSON(['success' => false, 'message' => 'Une erreur est survenue']);
+        return $this->response->setJSON(['error' => false, 'message' => 'Une erreur est survenue']);
     }
 
     public function form(){

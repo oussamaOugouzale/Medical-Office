@@ -59,7 +59,7 @@
                     </div>
                     <ul class="nav header-navbar-rht">
                         <li class="nav-item">
-                            <a href="<?= base_url('doctor/logout') ?>">Se déconnecter</a>
+                            <a href="<?= base_url('logout') ?>">Se déconnecter</a>
                         </li>
                     </ul>
                 </nav>

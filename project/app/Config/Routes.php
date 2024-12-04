@@ -105,7 +105,7 @@ $routes->get('verification-code', function () {
 $routes->get('rdvStore', 'RdvController::store', ['as' => 'rdvStore']);
 //rdv
 $routes->post('rdv/cancel', 'MedecinController::cancel', ['as' => 'rdv-cancel']);
-$routes->post('rdv/accepte', 'MedecinController::accepte', ['as' => 'rdv-accepte']);
+$routes->post('rdv/accepte', 'MedecinController::accept', ['as' => 'rdv-accepte']);
 //dashboard
 $routes->get('dashboard', 'MedecinController::index', ['as' => 'dashboard']);
 //rdvs

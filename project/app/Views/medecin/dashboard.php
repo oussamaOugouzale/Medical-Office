@@ -323,7 +323,7 @@ if ($patient): ?>
                         const rdvId = this.dataset.rdvId;
 
                         $.ajax({
-                            url: '<?= base_url("rdv/accept") ?>',
+                            url: '<?= base_url("rdv/accepte") ?>',
                             method: 'POST',
                             data: {
                                 <?= csrf_token() ?>: '<?= csrf_hash() ?>',
