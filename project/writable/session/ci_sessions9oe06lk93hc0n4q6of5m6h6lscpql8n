@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1733351534;_ci_previous_url|s:42:"http://localhost:8080/index.php/admin-home";isLoggedIn|b:1;userId|s:1:"4";role|s:7:"medecin";userName|s:18:"Ougouzale  Oussama";doctor_logged_in|b:1;doctor|a:5:{s:2:"id";s:1:"4";s:3:"nom";s:10:"Ougouzale ";s:6:"prenom";s:7:"Oussama";s:5:"email";s:18:"aithamou@gmail.com";s:10:"isLoggedIn";b:1;}

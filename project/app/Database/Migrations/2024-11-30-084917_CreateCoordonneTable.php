@@ -43,11 +43,7 @@ class CreateCoordonneTable extends Migration
                 'type' => 'VARCHAR',
                 'constraint' => 50,
             ],
-            'partCompleted' => [
-                'type' => 'BOOLEAN',
-                'default' => false,
-
-            ],
+            
             'doctor_id' => [
                 'type' => 'INT',
                 'unsigned' => true,

@@ -10,7 +10,7 @@ class CreateSpecialiteTable extends Migration
     {
         $this->forge->addField([
             'id' => [
-                'type'           => 'BIGINT',
+                'type'           => 'INT',
                 'unsigned'       => true,
                 'auto_increment' => true,
             ],

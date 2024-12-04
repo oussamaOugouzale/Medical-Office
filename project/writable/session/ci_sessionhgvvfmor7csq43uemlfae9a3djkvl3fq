@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1733315816;_ci_previous_url|s:41:"http://localhost:8080/index.php/dashboard";isLoggedIn|b:1;userId|s:1:"2";role|s:7:"medecin";userName|s:17:"medecin medprenom";doctor_logged_in|b:1;doctor|a:5:{s:2:"id";s:1:"2";s:3:"nom";s:7:"medecin";s:6:"prenom";s:9:"medprenom";s:5:"email";s:17:"medecin@gmail.com";s:10:"isLoggedIn";b:1;}

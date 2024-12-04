@@ -21,7 +21,7 @@ $routes->post('patient/register', 'PatientController::register', ['as' => 'patie
 //login 
 $routes->get('/loginForm', 'LoginController::index', ['as' => 'loginForm']);
 //admin-login-succes
-$routes->get('/admin-home', 'AdminController::index');
+$routes->get('/admin-home', 'MedecinController::List',['as' => 'admin-home']);
 //patient-login-succes
 $routes->get('/patient-home', 'PatientController::index');
 //medecin-login-succes
@@ -38,7 +38,24 @@ $routes->post('/logout', to: 'LoginController::logout');
 $routes->get('/create-admin', 'AdminController::create');
 //create patient
 $routes->get('/create-patient', 'PatientController::create');
-//create medecin
+$routes->get('/medecin-form', 'MedecinController::form');
+$routes->post('/create-medecin', 'MedecinController::create');
+//create secretaire
+$routes->get('/create-secretaire', 'SecretaireController::create');
+
+//Patient routes
+$routes->get('/patients', 'PatientController::list');
+$routes->get('/patients/edit/(:num)', 'PatientController::edit/$1');
+$routes->post('/patients/update/(:num)', 'PatientController::update/$1');
+$routes->get('/patients/delete/(:num)', 'PatientController::delete/$1');
+
+//Med routes
+$routes->get('/medecins', 'MedecinController::list');
+$routes->get('/medecin/edit/(:num)', 'MedecinController::edit/$1');
+$routes->put('/medecin/update/(:num)', 'MedecinController::update/$1');
+$routes->get('/medecin/delete/(:num)', 'MedecinController::delete/$1');
+
+
 $routes->get('/create-medecein', 'MdedecinController::create');
 
 //doctor
@@ -66,3 +83,39 @@ $routes->get('/password', function () {
 $routes->post('/password-update', 'PatientController::password');
 
 $routes->get('/test', 'RdvController::test');
+
+
+//prendre rdv
+$routes->get('prendreRdv/(:num)', 'RdvController::prendreRdv/$1');
+
+
+$routes->post('storeTime', 'RdvController::storeSelectedTime', ['as' => 'storeTime']);
+$routes->get('rdvTelephone', 'RdvController::rdvTelephone', ['as' => 'rdvTelephone']);
+$routes->get('rdv-telephone', function () {
+    return view('rdv-telephone');
+});
+//send verification coed
+$routes->post('sendCode', 'RdvController::sendCode', ['as' => 'sendCode']);
+$routes->post('verifierCode', 'RdvController::verifierCode', ['as' => 'verifierCode']);
+$routes->get('verification-code', function () {
+    return view('code-confirmation');
+}, ['as' => 'verification-code']);
+
+//create rdv
+$routes->get('rdvStore', 'RdvController::store', ['as' => 'rdvStore']);
+//rdv
+$routes->post('rdv/cancel', 'MedecinController::cancel', ['as' => 'rdv-cancel']);
+$routes->post('rdv/accepte', 'MedecinController::accepte', ['as' => 'rdv-accepte']);
+//dashboard
+$routes->get('dashboard', 'MedecinController::index', ['as' => 'dashboard']);
+//rdvs
+$routes->get('medecin-rdvs', 'MedecinController::rdvs', ['as' => 'rdvs']);
+
+//doctor-password
+$routes->get('/medecin-password', function () {
+    return view('medecin/password');
+}, ['as' => 'medecin-password']);
+$routes->post('/medecin-password-update', 'MedecinController::password');
+//cordonnes
+$routes->get('/medecin-coordonnes', 'MedecinController::editCoordinates', ['as' => 'medecin-coordonnes']);
+$routes->post('/medecin-coordonnes-update', 'MedecinController::saveCoordinates', ['as' => 'medecin-coordonnes-save']);

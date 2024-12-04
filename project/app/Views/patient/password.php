@@ -14,6 +14,7 @@
     <meta property="og:image" content="<?= base_url('assets/img/preview-banner.jpg') ?>">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="<?= base_url('assets/img/preview-banner.jpg') ?>">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Doccure</title>
 
     <link rel="icon" href="<?= base_url('assets/img/favicon.png') ?>" type="image/x-icon">
@@ -106,8 +107,8 @@
                             <div class="widget-profile pro-widget-content">
                                 <div class="profile-info-widget">
                                     <a href="#" class="booking-doc-img">
-                                        <img src="<?= esc(session()->get('patient')['photo']) ?>"
-                                            alt="Photo du patient">
+                                    <img src="<?= esc(base_url(session()->get('patient.photo'))) ?>"
+                                    alt="Photo du patient">
                                     </a>
                                     <div class="profile-det-info">
                                         <h3>

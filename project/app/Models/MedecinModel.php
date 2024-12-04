@@ -36,7 +36,7 @@ class MedecinModel extends Model
         'prenom' => 'required|string|max_length[100]',
         'genre' => 'required|string|max_length[100]',
         'telephone' => 'required|string|max_length[15]',
-        'email' => 'required|valid_email|is_unique[medecin.email]',
+        'email' => 'required|valid_email',
         'motDePasse' => 'required|string|min_length[8]',
     ];
 

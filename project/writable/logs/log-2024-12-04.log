@@ -1,0 +1,1306 @@
+<<<<<<< HEAD
+CRITICAL - 2024-12-04 00:07:02 --> Twilio\Exceptions\ConfigurationException: Credentials are required to create a Client
+[Method: POST, Route: sendCode]
+in VENDORPATH\twilio\sdk\src\Twilio\Base\BaseClient.php on line 70.
+ 1 APPPATH\Controllers\RdvController.php(59): Twilio\Base\BaseClient->__construct(null, null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RdvController->sendCode()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RdvController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 00:09:46 --> Exception: Twilio credentials are missing in the .env file.
+[Method: POST, Route: sendCode]
+in APPPATH\Controllers\RdvController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RdvController->sendCode()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RdvController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 00:11:32 --> Exception: Twilio credentials are missing in the .env file.
+[Method: POST, Route: sendCode]
+in APPPATH\Controllers\RdvController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RdvController->sendCode()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RdvController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 00:12:54 --> Exception: Twilio credentials are missing in the .env file.
+[Method: POST, Route: sendCode]
+in APPPATH\Controllers\RdvController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RdvController->sendCode()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RdvController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 00:12:56 --> Exception: Twilio credentials are missing in the .env file.
+[Method: POST, Route: sendCode]
+in APPPATH\Controllers\RdvController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RdvController->sendCode()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RdvController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 00:13:01 --> Exception: Twilio credentials are missing in the .env file.
+[Method: POST, Route: sendCode]
+in APPPATH\Controllers\RdvController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RdvController->sendCode()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RdvController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 00:14:13 --> Exception: Twilio credentials are missing in the .env file.
+[Method: POST, Route: sendCode]
+in APPPATH\Controllers\RdvController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RdvController->sendCode()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RdvController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 00:14:17 --> Exception: Twilio credentials are missing in the .env file.
+[Method: POST, Route: sendCode]
+in APPPATH\Controllers\RdvController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RdvController->sendCode()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RdvController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 00:14:21 --> Exception: Twilio credentials are missing in the .env file.
+[Method: POST, Route: sendCode]
+in APPPATH\Controllers\RdvController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RdvController->sendCode()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RdvController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 00:15:03 --> Exception: Twilio credentials are missing in the .env file.
+[Method: POST, Route: sendCode]
+in APPPATH\Controllers\RdvController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RdvController->sendCode()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RdvController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 00:15:28 --> Exception: Twilio credentials are missing in the .env file.
+[Method: POST, Route: sendCode]
+in APPPATH\Controllers\RdvController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RdvController->sendCode()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RdvController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 01:19:10 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: GET, Route: prendreRdv/%3C]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('prendreRdv/<')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('prendreRdv/<')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 01:20:05 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "patient/dahsboard" cannot be found.
+[Method: GET, Route: rdvStore]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('patient/dahsboard')
+ 2 APPPATH\Controllers\RdvController.php(65): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RdvController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RdvController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 01:20:42 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: GET, Route: prendreRdv/%3C]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('prendreRdv/<')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('prendreRdv/<')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 01:20:53 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: GET, Route: prendreRdv/%3C]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('prendreRdv/<')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('prendreRdv/<')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 10:35:01 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: GET, Route: prendreRdv/%3C]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('prendreRdv/<')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('prendreRdv/<')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 11:16:36 --> ErrorException: Undefined variable $doctor
+[Method: GET, Route: dashboard]
+in APPPATH\Views\medecin\dashboard.php on line 108.
+ 1 APPPATH\Views\medecin\dashboard.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $doctor', 'C:\\Users\\Admin\\Desktop\\Medical Office\\project\\app\\Views\\medecin\\dashboard.php', 108)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\app\\Views\\medecin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('medecin/dashboard', [], true)
+ 5 APPPATH\Config\Routes.php(94): view('medecin/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 12:14:25 --> Error: Class "App\Controllers\PatientModel" not found
+[Method: POST, Route: send-login-form]
+in APPPATH\Controllers\LoginController.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 12:27:15 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: GET, Route: prendreRdv/%3C]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('prendreRdv/<')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('prendreRdv/<')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 12:28:13 --> Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The number +21265077XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +21265077XXXX at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers
+[Method: POST, Route: sendCode]
+in VENDORPATH\twilio\sdk\src\Twilio\Version.php on line 88.
+ 1 VENDORPATH\twilio\sdk\src\Twilio\Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to create record')
+ 3 APPPATH\Controllers\RdvController.php(128): Twilio\Rest\Api\V2010\Account\MessageList->create('+212650773257', Object(Twilio\Values))
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RdvController->sendCode()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RdvController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 14:56:23 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: GET, Route: prendreRdv/%3C]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('prendreRdv/<')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('prendreRdv/<')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:05:19 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: GET, Route: prendreRdv/%3C]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('prendreRdv/<')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('prendreRdv/<')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:23 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/jquery-3.7.1.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/jquery-3.7.1.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/jquery-3.7.1.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:23 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/bootstrap.bundle.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/bootstrap.bundle.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/bootstrap.bundle.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:23 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/plugins/theia-sticky-sidebar/ResizeSensor.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/plugins/theia-sticky-sidebar/ResizeSensor.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/plugins/theia-sticky-sidebar/ResizeSensor.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:23 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:23 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/moment.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/moment.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/moment.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:23 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/bootstrap-datetimepicker.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/bootstrap-datetimepicker.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/bootstrap-datetimepicker.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:23 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/plugins/select2/js/select2.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/plugins/select2/js/select2.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/plugins/select2/js/select2.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:23 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/aos.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/aos.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/aos.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:23 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/script.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/script.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/script.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:31 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/jquery-3.7.1.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/jquery-3.7.1.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/jquery-3.7.1.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:31 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/bootstrap.bundle.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/bootstrap.bundle.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/bootstrap.bundle.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:32 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/plugins/theia-sticky-sidebar/ResizeSensor.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/plugins/theia-sticky-sidebar/ResizeSensor.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/plugins/theia-sticky-sidebar/ResizeSensor.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:32 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:32 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/moment.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/moment.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/moment.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:32 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/bootstrap-datetimepicker.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/bootstrap-datetimepicker.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/bootstrap-datetimepicker.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:32 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/plugins/select2/js/select2.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/plugins/select2/js/select2.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/plugins/select2/js/select2.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:32 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/aos.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/aos.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/aos.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:32 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/script.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/script.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/script.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:41 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/jquery-3.7.1.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/jquery-3.7.1.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/jquery-3.7.1.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:41 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/bootstrap.bundle.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/bootstrap.bundle.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/bootstrap.bundle.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:41 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/plugins/theia-sticky-sidebar/ResizeSensor.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/plugins/theia-sticky-sidebar/ResizeSensor.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/plugins/theia-sticky-sidebar/ResizeSensor.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:41 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:41 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/moment.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/moment.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/moment.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:42 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/bootstrap-datetimepicker.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/bootstrap-datetimepicker.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/bootstrap-datetimepicker.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:42 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/plugins/select2/js/select2.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/plugins/select2/js/select2.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/plugins/select2/js/select2.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:42 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/aos.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/aos.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/aos.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:42 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/script.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/script.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/script.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:49 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/jquery-3.7.1.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/jquery-3.7.1.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/jquery-3.7.1.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:49 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/bootstrap.bundle.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/bootstrap.bundle.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/bootstrap.bundle.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:49 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/plugins/theia-sticky-sidebar/ResizeSensor.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/plugins/theia-sticky-sidebar/ResizeSensor.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/plugins/theia-sticky-sidebar/ResizeSensor.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:49 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:49 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/moment.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/moment.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/moment.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:49 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/bootstrap-datetimepicker.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/bootstrap-datetimepicker.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/bootstrap-datetimepicker.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:49 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/plugins/select2/js/select2.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/plugins/select2/js/select2.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/plugins/select2/js/select2.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:49 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/aos.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/aos.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/aos.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:11:50 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/script.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/script.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/script.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:58:06 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+[Method: GET, Route: medecin-password]
+in SYSTEMPATH\HTTP\SiteURI.php on line 407.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(381): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\medecin\password.php(110): base_url(null)
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\app\\Views\\medecin\\password.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('medecin/password', [], true)
+ 7 APPPATH\Config\Routes.php(99): view('medecin/password')
+ 8 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+ 9 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 15:59:58 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+[Method: GET, Route: medecin-password]
+in SYSTEMPATH\HTTP\SiteURI.php on line 407.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(381): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\medecin\password.php(110): base_url(null)
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\app\\Views\\medecin\\password.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('medecin/password', [], true)
+ 7 APPPATH\Config\Routes.php(99): view('medecin/password')
+ 8 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+ 9 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 16:00:32 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+[Method: GET, Route: medecin-password]
+in SYSTEMPATH\HTTP\SiteURI.php on line 407.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(381): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\medecin\med-password.php(110): base_url(null)
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\app\\Views\\medecin\\med-password.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('medecin/med-password', [], true)
+ 7 APPPATH\Config\Routes.php(99): view('medecin/med-password')
+ 8 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+ 9 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 16:00:38 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+[Method: GET, Route: medecin-password]
+in SYSTEMPATH\HTTP\SiteURI.php on line 407.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(381): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\medecin\med-password.php(110): base_url(null)
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\app\\Views\\medecin\\med-password.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('medecin/med-password', [], true)
+ 7 APPPATH\Config\Routes.php(99): view('medecin/med-password')
+ 8 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+ 9 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 16:01:56 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+[Method: GET, Route: medecin-password]
+in SYSTEMPATH\HTTP\SiteURI.php on line 407.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(381): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\medecin\password.php(110): base_url(null)
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\app\\Views\\medecin\\password.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('medecin/password', [], true)
+ 7 APPPATH\Config\Routes.php(99): view('medecin/password')
+ 8 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+ 9 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 16:02:32 --> TypeError: CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+[Method: GET, Route: medecin-password]
+in SYSTEMPATH\HTTP\SiteURI.php on line 407.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(381): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(59): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\medecin\password.php(110): base_url(null)
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\app\\Views\\medecin\\password.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('medecin/password', [], true)
+ 7 APPPATH\Config\Routes.php(99): view('medecin/password')
+ 8 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+ 9 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 16:03:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: medecin-password]
+in APPPATH\Views\medecin\password.php on line 116.
+ 1 APPPATH\Views\medecin\password.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\Admin\\Desktop\\Medical Office\\project\\app\\Views\\medecin\\password.php', 116)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\app\\Views\\medecin\\password.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('medecin/password', [], true)
+ 5 APPPATH\Config\Routes.php(99): view('medecin/password')
+ 6 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 16:36:00 --> ErrorException: Undefined array key "nom"
+[Method: GET, Route: medecin-coordonnes]
+in APPPATH\Views\medecin\coordonnes.php on line 100.
+ 1 APPPATH\Views\medecin\coordonnes.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nom"', 'C:\\Users\\Admin\\Desktop\\Medical Office\\project\\app\\Views\\medecin\\coordonnes.php', 100)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\app\\Views\\medecin\\coordonnes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('medecin/coordonnes', [], true)
+ 5 APPPATH\Controllers\MedecinController.php(18): view('medecin/coordonnes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MedecinController->editCoordinates()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MedecinController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 16:46:04 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/jquery-3.7.1.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/jquery-3.7.1.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/jquery-3.7.1.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 16:46:04 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/bootstrap.bundle.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/bootstrap.bundle.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/bootstrap.bundle.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 16:46:04 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/plugins/theia-sticky-sidebar/ResizeSensor.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/plugins/theia-sticky-sidebar/ResizeSensor.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/plugins/theia-sticky-sidebar/ResizeSensor.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 16:46:04 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 16:46:04 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/moment.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/moment.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/moment.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 16:46:04 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/bootstrap-datetimepicker.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/bootstrap-datetimepicker.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/bootstrap-datetimepicker.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 16:46:04 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/plugins/select2/js/select2.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/plugins/select2/js/select2.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/plugins/select2/js/select2.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 16:46:04 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/aos.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/aos.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/aos.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 16:46:04 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/script.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/script.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/script.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 16:46:13 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/jquery-3.7.1.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/jquery-3.7.1.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/jquery-3.7.1.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 16:46:13 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/bootstrap.bundle.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/bootstrap.bundle.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/bootstrap.bundle.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 16:46:13 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/plugins/theia-sticky-sidebar/ResizeSensor.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/plugins/theia-sticky-sidebar/ResizeSensor.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/plugins/theia-sticky-sidebar/ResizeSensor.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 16:46:13 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 16:46:13 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/moment.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/moment.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/moment.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 16:46:13 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/bootstrap-datetimepicker.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/bootstrap-datetimepicker.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/bootstrap-datetimepicker.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 16:46:13 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/plugins/select2/js/select2.min.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/plugins/select2/js/select2.min.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/plugins/select2/js/select2.min.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 16:46:13 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/aos.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/aos.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/aos.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 16:46:13 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ asset('public"
+[Method: GET, Route: %7B%7B%20asset%28%27public/assets/js/script.js%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ asset(\'public/assets/js/script.js\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ asset(\'public/assets/js/script.js\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 16:52:07 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "base_url('assets"
+[Method: GET, Route: base_url%28%27assets/img/logo.png%27%29]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('base_url(\'assets/img/logo.png\')')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('base_url(\'assets/img/logo.png\')')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 16:52:09 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "base_url('assets"
+[Method: GET, Route: base_url%28%27assets/img/logo.png%27%29]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('base_url(\'assets/img/logo.png\')')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('base_url(\'assets/img/logo.png\')')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\Desktop\\Medical Office\\project\\public\\index.php')
+=======
+ERROR - 2024-12-04 18:58:18 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php:1762
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1762): mail()
+#2 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\Users\Ayoub\Documents\Medical-Office\project\app\Controllers\MedecinController.php(99): CodeIgniter\Email\Email->send()
+#5 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(933): App\Controllers\MedecinController->update()
+#6 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Ayoub\Documents\Medical-Office\project\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Ayoub\Documents\Medical-Office\project\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#10 C:\Users\Ayoub\Documents\Medical-Office\project\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#11 C:\Users\Ayoub\Documents\Medical-Office\project\system\rewrite.php(44): require_once('...')
+#12 {main}
+ERROR - 2024-12-04 18:58:18 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-12-04 18:58:18 --> 
+ERROR - 2024-12-04 18:58:18 --> Échec de l'envoi de l'email à mustapha@gmail.com
+ERROR - 2024-12-04 19:00:10 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php:1762
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1762): mail()
+#2 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\Users\Ayoub\Documents\Medical-Office\project\app\Controllers\MedecinController.php(99): CodeIgniter\Email\Email->send()
+#5 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(933): App\Controllers\MedecinController->update()
+#6 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Ayoub\Documents\Medical-Office\project\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Ayoub\Documents\Medical-Office\project\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#10 C:\Users\Ayoub\Documents\Medical-Office\project\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#11 C:\Users\Ayoub\Documents\Medical-Office\project\system\rewrite.php(44): require_once('...')
+#12 {main}
+ERROR - 2024-12-04 19:00:10 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-12-04 19:00:10 --> 
+ERROR - 2024-12-04 19:00:10 --> Échec de l'envoi de l'email à ayoubboutbibb@gmail.com
+ERROR - 2024-12-04 19:23:25 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php:1762
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1762): mail()
+#2 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\Users\Ayoub\Documents\Medical-Office\project\app\Controllers\MedecinController.php(146): CodeIgniter\Email\Email->send()
+#5 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(933): App\Controllers\MedecinController->create()
+#6 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Ayoub\Documents\Medical-Office\project\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Ayoub\Documents\Medical-Office\project\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#10 C:\Users\Ayoub\Documents\Medical-Office\project\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#11 C:\Users\Ayoub\Documents\Medical-Office\project\system\rewrite.php(44): require_once('...')
+#12 {main}
+ERROR - 2024-12-04 19:23:25 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-12-04 19:23:25 --> 
+ERROR - 2024-12-04 19:23:25 --> Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.<br><pre>Date: Wed, 4 Dec 2024 19:23:23 +0000
+From: &quot;Doccure Admin&quot; &lt;ayoubboutbibb@gmail.com&gt;
+Return-Path: &lt;ayoubboutbibb@gmail.com&gt;
+Reply-To: &lt;ayoubboutbibb@gmail.com&gt;
+User-Agent: CodeIgniter
+X-Sender: ayoubboutbibb@gmail.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6750ac2b758da2.57580015@gmail.com&gt;
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</pre>
+ERROR - 2024-12-04 19:30:24 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php:1762
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1762): mail()
+#2 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\Users\Ayoub\Documents\Medical-Office\project\app\Controllers\MedecinController.php(146): CodeIgniter\Email\Email->send()
+#5 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(933): App\Controllers\MedecinController->create()
+#6 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Ayoub\Documents\Medical-Office\project\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Ayoub\Documents\Medical-Office\project\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#10 C:\Users\Ayoub\Documents\Medical-Office\project\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#11 C:\Users\Ayoub\Documents\Medical-Office\project\system\rewrite.php(44): require_once('...')
+#12 {main}
+ERROR - 2024-12-04 19:30:24 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-12-04 19:30:24 --> 
+ERROR - 2024-12-04 19:30:24 --> Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.<br><pre>Date: Wed, 4 Dec 2024 19:30:22 +0000
+From: &quot;Doccure Admin&quot; &lt;ayoubboutbibb@gmail.com&gt;
+Return-Path: &lt;ayoubboutbibb@gmail.com&gt;
+Reply-To: &lt;ayoubboutbibb@gmail.com&gt;
+User-Agent: CodeIgniter
+X-Sender: ayoubboutbibb@gmail.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6750adce0e3b96.66800286@gmail.com&gt;
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</pre>
+ERROR - 2024-12-04 19:41:53 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php:1762
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1762): mail()
+#2 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\Users\Ayoub\Documents\Medical-Office\project\app\Controllers\MedecinController.php(146): CodeIgniter\Email\Email->send()
+#5 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(933): App\Controllers\MedecinController->create()
+#6 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Ayoub\Documents\Medical-Office\project\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Ayoub\Documents\Medical-Office\project\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#10 C:\Users\Ayoub\Documents\Medical-Office\project\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#11 C:\Users\Ayoub\Documents\Medical-Office\project\system\rewrite.php(44): require_once('...')
+#12 {main}
+ERROR - 2024-12-04 19:41:53 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-12-04 19:41:53 --> 
+ERROR - 2024-12-04 19:41:53 --> Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.<br><pre>Date: Wed, 4 Dec 2024 19:41:51 +0000
+From: &quot;Doccure Admin&quot; &lt;ayoubboutbibb@gmail.com&gt;
+Return-Path: &lt;ayoubboutbibb@gmail.com&gt;
+Reply-To: &lt;ayoubboutbibb@gmail.com&gt;
+User-Agent: CodeIgniter
+X-Sender: ayoubboutbibb@gmail.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6750b07f76d2a9.30728964@gmail.com&gt;
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</pre>
+CRITICAL - 2024-12-04 20:06:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "http://localhost:8080/admin/addmed.php"
+[Method: GET, Route: medecin-form]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\MedecinController.php(13): view()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MedecinController->form()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Ayoub\\Documents\\Medical-Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 20:07:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "http://localhost:8080/admin/addmed.php"
+[Method: GET, Route: medecin-form]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\MedecinController.php(13): view()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MedecinController->form()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Ayoub\\Documents\\Medical-Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 20:07:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "http://localhost:8080/admin/home.php"
+[Method: GET, Route: admin-home]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\MedecinController.php(164): view()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MedecinController->list()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Ayoub\\Documents\\Medical-Office\\project\\public\\index.php')
+CRITICAL - 2024-12-04 20:07:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "http://localhost:8080/admin/home.php"
+[Method: GET, Route: admin-home]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\MedecinController.php(164): view()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MedecinController->list()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Ayoub\\Documents\\Medical-Office\\project\\public\\index.php')
+ERROR - 2024-12-04 20:09:40 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php:1762
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1762): mail()
+#2 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\Users\Ayoub\Documents\Medical-Office\project\app\Controllers\MedecinController.php(146): CodeIgniter\Email\Email->send()
+#5 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(933): App\Controllers\MedecinController->create()
+#6 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Ayoub\Documents\Medical-Office\project\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Ayoub\Documents\Medical-Office\project\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#10 C:\Users\Ayoub\Documents\Medical-Office\project\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#11 C:\Users\Ayoub\Documents\Medical-Office\project\system\rewrite.php(44): require_once('...')
+#12 {main}
+ERROR - 2024-12-04 20:09:40 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-12-04 20:09:40 --> 
+ERROR - 2024-12-04 20:09:40 --> Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.<br><pre>Date: Wed, 4 Dec 2024 20:09:38 +0000
+From: &quot;Doccure Admin&quot; &lt;ayoubboutbibb@gmail.com&gt;
+Return-Path: &lt;ayoubboutbibb@gmail.com&gt;
+Reply-To: &lt;ayoubboutbibb@gmail.com&gt;
+User-Agent: CodeIgniter
+X-Sender: ayoubboutbibb@gmail.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6750b7022d6149.89080185@gmail.com&gt;
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</pre>
+CRITICAL - 2024-12-04 20:39:58 --> Error: Undefined constant "admin"
+[Method: GET, Route: medecin/edit/7]
+in APPPATH\Views\admin\editmed.php on line 90.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH\Controllers\MedecinController.php(24): view()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MedecinController->edit()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Ayoub\\Documents\\Medical-Office\\project\\public\\index.php')
+ERROR - 2024-12-04 21:41:43 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php:1762
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1762): mail()
+#2 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\Users\Ayoub\Documents\Medical-Office\project\app\Controllers\MedecinController.php(99): CodeIgniter\Email\Email->send()
+#5 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(933): App\Controllers\MedecinController->update()
+#6 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Ayoub\Documents\Medical-Office\project\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Ayoub\Documents\Medical-Office\project\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#10 C:\Users\Ayoub\Documents\Medical-Office\project\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#11 C:\Users\Ayoub\Documents\Medical-Office\project\system\rewrite.php(44): require_once('...')
+#12 {main}
+ERROR - 2024-12-04 21:41:43 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-12-04 21:41:43 --> 
+ERROR - 2024-12-04 21:41:43 --> Échec de l'envoi de l'email à ayoubboutbibb@gmail.com
+ERROR - 2024-12-04 21:42:36 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php:1762
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1762): mail()
+#2 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\Users\Ayoub\Documents\Medical-Office\project\app\Controllers\MedecinController.php(99): CodeIgniter\Email\Email->send()
+#5 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(933): App\Controllers\MedecinController->update()
+#6 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Ayoub\Documents\Medical-Office\project\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Ayoub\Documents\Medical-Office\project\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#10 C:\Users\Ayoub\Documents\Medical-Office\project\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#11 C:\Users\Ayoub\Documents\Medical-Office\project\system\rewrite.php(44): require_once('...')
+#12 {main}
+ERROR - 2024-12-04 21:42:36 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-12-04 21:42:36 --> 
+ERROR - 2024-12-04 21:42:36 --> Échec de l'envoi de l'email à ayoubboutbibb@gmail.com
+ERROR - 2024-12-04 21:43:53 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php:1762
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1762): mail()
+#2 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\Users\Ayoub\Documents\Medical-Office\project\app\Controllers\MedecinController.php(147): CodeIgniter\Email\Email->send()
+#5 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(933): App\Controllers\MedecinController->create()
+#6 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Ayoub\Documents\Medical-Office\project\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Ayoub\Documents\Medical-Office\project\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#10 C:\Users\Ayoub\Documents\Medical-Office\project\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#11 C:\Users\Ayoub\Documents\Medical-Office\project\system\rewrite.php(44): require_once('...')
+#12 {main}
+ERROR - 2024-12-04 21:43:53 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-12-04 21:43:53 --> 
+ERROR - 2024-12-04 21:43:53 --> Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.<br><pre>Date: Wed, 4 Dec 2024 21:43:51 +0000
+From: &quot;Doccure Admin&quot; &lt;ayoubboutbibb@gmail.com&gt;
+Return-Path: &lt;ayoubboutbibb@gmail.com&gt;
+Reply-To: &lt;ayoubboutbibb@gmail.com&gt;
+User-Agent: CodeIgniter
+X-Sender: ayoubboutbibb@gmail.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6750cd171db244.77277705@gmail.com&gt;
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</pre>
+ERROR - 2024-12-04 21:44:37 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php:1762
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1762): mail()
+#2 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\Users\Ayoub\Documents\Medical-Office\project\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\Users\Ayoub\Documents\Medical-Office\project\app\Controllers\MedecinController.php(147): CodeIgniter\Email\Email->send()
+#5 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(933): App\Controllers\MedecinController->create()
+#6 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Ayoub\Documents\Medical-Office\project\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Ayoub\Documents\Medical-Office\project\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Ayoub\Documents\Medical-Office\project\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#10 C:\Users\Ayoub\Documents\Medical-Office\project\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#11 C:\Users\Ayoub\Documents\Medical-Office\project\system\rewrite.php(44): require_once('...')
+#12 {main}
+ERROR - 2024-12-04 21:44:37 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-12-04 21:44:37 --> 
+ERROR - 2024-12-04 21:44:37 --> Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.<br><pre>Date: Wed, 4 Dec 2024 21:44:35 +0000
+From: &quot;Doccure Admin&quot; &lt;ayoubboutbibb@gmail.com&gt;
+Return-Path: &lt;ayoubboutbibb@gmail.com&gt;
+Reply-To: &lt;ayoubboutbibb@gmail.com&gt;
+User-Agent: CodeIgniter
+X-Sender: ayoubboutbibb@gmail.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6750cd435235d4.53624174@gmail.com&gt;
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</pre>
+>>>>>>> e45866c1b88eb1759e5ef1960b8f4f1613838267

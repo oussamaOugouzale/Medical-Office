@@ -45,13 +45,13 @@
                             </span>
                         </a>
                         <a href="<?= base_url('index') ?>" class="navbar-brand logo">
-                            <img src="" class="img-fluid" alt="Logo">
+                            <img src="<?= base_url('assets/img/logo.png') ?>" class="img-fluid" alt="Logo">
                         </a>
                     </div>
                     <div class="main-menu-wrapper">
                         <div class="menu-header">
                             <a href="<?= base_url('index') ?>" class="menu-logo">
-                                <img src="<?= base_url('assets/img/logo-01.svg') ?>" class="img-fluid" alt="Logo">
+                                <img src="<?= base_url('assets/img/logo.png') ?>" class="img-fluid" alt="Logoo">
                             </a>
                             <a id="menu_close" class="menu-close" href="javascript:void(0);">
                                 <i class="fas fa-times"></i>

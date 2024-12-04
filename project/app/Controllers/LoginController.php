@@ -3,8 +3,9 @@
 namespace App\Controllers;
 
 use App\Models\AdminModel;
-use App\Models\PatientModel;
+use App\Models\doctorModel;
 use App\Models\MedecinModel;
+use App\Models\PatientModel;
 use App\Models\SecretaireModel;
 class LoginController extends BaseController
 {
@@ -41,7 +42,7 @@ class LoginController extends BaseController
         ];
 
         $patientModel = new PatientModel();
-
+        $medecinModel = new MedecinModel();
 
         $emailFound = false; // Flag pour savoir si un email correspondant existe
         foreach ($userTypes as $role => $model) {
@@ -84,9 +85,6 @@ class LoginController extends BaseController
 
                             session()->set('patient_logged_in', true);
 
-
-
-
                             session()->set('patient', [
                                 'id' => $patient['id'],
                                 'nom' => $patient['nom'],
@@ -96,9 +94,21 @@ class LoginController extends BaseController
                                 'isLoggedIn' => true,
                             ]);
 
-                            return redirect()->route(route: 'patient/dashboard');
+                            return redirect()->route('patient/dashboard');
                         case 'medecin':
-                            return redirect()->route('medecin-home');
+                            $doctor = $medecinModel->where('email', $email)->first();
+
+                            session()->set('doctor_logged_in', true);
+
+                            session()->set('doctor', [
+                                'id' => $doctor['id'],
+                                'nom' => $doctor['nom'],
+                                'prenom' => $doctor['prenom'],
+                                'email' => $doctor['email'],
+                                'isLoggedIn' => true,
+                            ]);
+                            // Vous pouvez ajouter une logique spécifique au médecin ici, si nécessaire
+                            return redirect()->route('dashboard'); // Redirection vers le dashboard du médecin
                     }
                 } else {
                     // Mot de passe incorrect
@@ -109,18 +119,25 @@ class LoginController extends BaseController
             }
         }
 
-        if (!$emailFound) {
-            // L'email n'existe pas dans aucune table
-            return redirect()->back()
-                ->withInput()
-                ->with('errors', ['email' => 'Aucun utilisateur trouvé avec cet email']);
-        }
-
-        // Si aucune correspondance n'a été trouvée
+        // Si aucun utilisateur trouvé avec l'email
         return redirect()->back()
             ->withInput()
-            ->with('errors', ['email' => 'Email ou mot de passe invalide']);
+            ->with('errors', ['email' => 'Email non trouvé']);
     }
+
+
+    //     if (!$emailFound) {
+    //         // L'email n'existe pas dans aucune table
+    //         return redirect()->back()
+    //             ->withInput()
+    //             ->with('errors', ['email' => 'Aucun utilisateur trouvé avec cet email']);
+    //     }
+
+    //     // Si aucune correspondance n'a été trouvée
+    //     return redirect()->back()
+    //         ->withInput()
+    //         ->with('errors', ['email' => 'Email ou mot de passe invalide']);
+    // }
 
 
     public function logout()

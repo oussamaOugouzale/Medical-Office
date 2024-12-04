@@ -16,7 +16,9 @@
         "facebook/graph-sdk": "^5.1",
         "laminas/laminas-escaper": "^2.13",
         "league/oauth2-facebook": "^2.2",
-        "psr/log": "^3.0"
+        "nesbot/carbon": "^3.8",
+        "psr/log": "^3.0",
+        "twilio/sdk": "^8.3"
     },
     "require-dev": {
         "codeigniter/coding-standard": "^1.7",

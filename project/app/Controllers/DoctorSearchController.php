@@ -9,7 +9,7 @@ class DoctorSearchController extends BaseController
 {
     public function search()
     {
-        $request = service('request'); // Pour accéder à l'objet Request
+        $request = service('request'); 
 
         if (!$request->getVar('nom') && !$request->getVar('localisation') && !$request->getVar('specialite')) {
             return redirect()->back()->with('error', 'Veuillez remplir au moins un champ de recherche.');
@@ -39,8 +39,7 @@ class DoctorSearchController extends BaseController
             return redirect()->back()->with('notfound', 'Aucun résultat trouvé.');
         }
 
-        var_dump(value: $doctors);
-        // return view('doctors', ['doctors' => $doctors]);
+        return view('doctors', ['doctors' => $doctors]);
     }
 
     public function show($id)
