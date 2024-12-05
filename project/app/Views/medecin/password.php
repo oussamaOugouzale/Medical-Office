@@ -122,7 +122,6 @@
                                 </div>
                             </div>
 
-                            <!-- Menu du tableau de bord -->
                             <div class="dashboard-widget">
                                 <nav class="dashboard-menu">
                                 <ul>

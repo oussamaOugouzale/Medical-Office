@@ -12,7 +12,6 @@
 
     <link rel="icon" href="<?= base_url('assets/img/favicon.png') ?>" type="image/x-icon">
 
-    <!-- CSS Files -->
     <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.min.css') ?>">
     <link rel="stylesheet" href="<?= base_url('assets/plugins/fontawesome/css/fontawesome.min.css') ?>">
     <link rel="stylesheet" href="<?= base_url('assets/plugins/fontawesome/css/all.min.css') ?>">
@@ -27,7 +26,6 @@
 
     <div class="main-wrapper home-three">
 
-        <!-- Header -->
         <header class="header header-trans header-three header-eight">
             <div class="container">
                 <nav class="navbar navbar-expand-lg header-nav">
@@ -53,7 +51,6 @@
                             </a>
                         </div>
                         <ul class="main-nav">
-                            <!-- Ajoutez des éléments de menu ici si nécessaire -->
                         </ul>
                     </div>
                     <ul class="nav header-navbar-rht">
@@ -64,9 +61,7 @@
                 </nav>
             </div>
         </header>
-        <!-- /Header -->
 
-        <!-- Breadcrumb -->
         <div class="breadcrumb-bar-two">
             <div class="container">
                 <div class="row align-items-center inner-banner">
@@ -82,9 +77,8 @@
                 </div>
             </div>
         </div>
-        <!-- /Breadcrumb -->
 
-        <!-- Content Section -->
+        <!-- Contentx Section -->
         <div class="content doctor-content">
             <div class="container">
                 <div class="row">
@@ -104,9 +98,9 @@
                                             <h5 class="mb-0">ttttttttttttttest, somthinnnng</h5>
                                         </div>
                                         <?php
-                                        $doctorId = session()->get('doctor.id'); // Récupération de l'ID du docteur
-                                        $specialitesModel = new \App\Models\SpecialiteModel(); // Chargement du modèle SpecialiteModel
-                                        $specialite = $specialitesModel->where('doctor_id', $doctorId)->first(); // Recherche de la spécialité correspondante
+                                        $doctorId = session()->get('doctor.id'); 
+                                        $specialitesModel = new \App\Models\SpecialiteModel(); 
+                                        $specialite = $specialitesModel->where('doctor_id', $doctorId)->first(); 
                                         
                                         if ($specialite): ?>
                                             <span class="badge doctor-role-badge">
@@ -308,7 +302,7 @@
 
     </div>
     <script>
-        // Prévisualiser une image uploadée
+        
         function previewImage(event) {
             const icon = document.getElementById('icon');
             const preview = document.getElementById('preview');
@@ -329,7 +323,7 @@
             }
         }
 
-        // Obtenir la géolocalisation
+        
         function getLocation() {
             if (navigator.geolocation) {
                 navigator.geolocation.getCurrentPosition(showPosition, showError);
@@ -338,13 +332,13 @@
             }
         }
 
-        // Afficher la position
+        
         function showPosition(position) {
             document.getElementById('latitude').value = position.coords.latitude;
             document.getElementById('longitude').value = position.coords.longitude;
         }
 
-        // Gérer les erreurs de géolocalisation
+        
         function showError(error) {
             switch (error.code) {
                 case error.PERMISSION_DENIED:

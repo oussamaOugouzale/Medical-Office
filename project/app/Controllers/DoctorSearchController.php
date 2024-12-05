@@ -36,7 +36,7 @@ class DoctorSearchController extends BaseController
         $doctors = $query->findAll();
 
         if (empty($doctors)) {
-            return redirect()->back()->with('notfound', 'Aucun résultat trouvé.');
+            return redirect()->route('/')->with('notfound', 'Aucun résultat trouvé.');
         }
 
         return view('doctors', ['doctors' => $doctors]);

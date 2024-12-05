@@ -27,7 +27,7 @@ class MedecinModel extends Model
     }
 
 
-    protected $useTimestamps = false; // Facultatif
+    protected $useTimestamps = false; 
     protected $createdField = 'created_at';
     protected $updatedField = 'updated_at';
 

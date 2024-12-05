@@ -106,7 +106,6 @@
                     <?php if (isset($doctors) && !empty($doctors)): ?>
                         <?php foreach ($doctors as $doctor): ?>
                             <?php
-                            // Vérification des coordonnées pour ce médecin dans la table "coordonne"
                             $coordonneesModel = new \App\Models\CoordonneModel();
                             $coordonnes = $coordonneesModel->where('doctor_id', $doctor['id'])->first();
                             ?>

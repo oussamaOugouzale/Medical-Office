@@ -26,7 +26,7 @@ class RdvController extends Controller
 
     public function store()
     {
-        // Charger les services nécessaires
+        
         $session = session();
         $doctor_id = $session->get('doctor_id');
         $horaire = $session->get('selected_time');
@@ -36,7 +36,7 @@ class RdvController extends Controller
 
         
 
-        // Vérification des données obligatoires
+        
         if (!$doctor_id || !$patient_id) {
             return $this->response->setJSON(['error' => 'Informations du docteur ou du patient manquantes dans la session.'])->setStatusCode(400);
         }
@@ -48,10 +48,10 @@ class RdvController extends Controller
             return $this->response->setJSON(['error' => 'Format de date ou d\'heure invalide.'])->setStatusCode(400);
         }
 
-        // Charger le modèle Rdv
+        
         $rdvModel = new RdvModel();
 
-        // Insérer les données dans la base de données
+        
         $rdvModel->insert([
             'doctor_id' => $doctor_id,
             'patient_id' => $patient_id,
@@ -61,14 +61,14 @@ class RdvController extends Controller
             'jour' => $date,
         ]);
 
-        // Redirection vers une route spécifique
+        
         return redirect()->route('patient/dashboard');
     }
 
 
     public function verifierCode()
     {
-        // Validation des données
+        
         $validationRules = [
             'verification_code' => 'required|numeric'
         ];
@@ -79,20 +79,20 @@ class RdvController extends Controller
                 ->with('errors', $this->validator->getErrors());
         }
 
-        // Récupération du code de confirmation de la session
+        
         $verificationCode = session()->get('confirmation_code');
-        // Vérification du code
+        
         if ($this->request->getPost(index: 'verification_code') == $verificationCode) {
             return redirect()->route('rdvStore');
         }
 
-        // Si le code est incorrect, rediriger avec un message d'erreur
+        
         return redirect()->route('verification-code')->with('error', 'Le code de confirmation est incorrect.');
     }
 
     public function sendCode()
     {
-        // Validation des entrées (comme vous l'avez déjà fait)
+        
         $validationRules = [
             'nom' => 'required|string',
             'motif' => 'required|string',
@@ -105,12 +105,12 @@ class RdvController extends Controller
                 ->with('errors', $this->validator->getErrors());
         }
 
-        // Récupération des données validées
-        $phone = '+212' . substr($this->request->getPost('phone'), 1); // Format du numéro de téléphone
-        $motif = $this->request->getPost('motif'); // Récupération du motif
-        $code = rand(10000, 99999); // Génération d'un code de confirmation aléatoire
+        
+        $phone = '+212' . substr($this->request->getPost('phone'), 1); 
+        $motif = $this->request->getPost('motif'); 
+        $code = rand(10000, 99999); 
 
-        // Stockage des informations dans la session
+        
         session()->set([
             'confirmation_code' => $code,
             'motif' => $motif,
@@ -120,13 +120,13 @@ class RdvController extends Controller
 
         
 
-        // Récupération des informations d'identification Twilio
+        
         $twilioCredentials = Twilio::getCredentials();
 
-        // Configuration de Twilio
+        
         $twilio = new Client($twilioCredentials['sid'], $twilioCredentials['token']);
 
-        // Envoi du message via Twilio
+        
         $twilio->messages->create(
             $phone,
             [
@@ -135,12 +135,12 @@ class RdvController extends Controller
             ]
         );
 
-        // Redirige vers la vue de confirmation du code
+        
         return view('code-confirmation');
     }
     public function storeSelectedTime()
     {
-        // Validation des données
+        
         $validation = \Config\Services::validation();
         $validation->setRules([
             'time' => 'required|string',
@@ -148,24 +148,24 @@ class RdvController extends Controller
         ]);
 
         if (!$this->validate($validation->getRules())) {
-            // Si la validation échoue
+            
             return redirect()->back()->withInput()->with('error', 'Veuillez fournir une date et une heure valides.');
         }
 
-        // Récupération des données validées
+        
         $time = $this->request->getPost('time');
         $date = $this->request->getPost('date');
         $doctor_id = $this->request->getPost('doctor_id');
 
-        // Stockage des données dans la session
+        
         session()->set([
             'selected_time' => $time,
             'selected_date' => $date,
             'doctor_id' => $doctor_id,
         ]);
 
-        // Redirection vers la page souhaitée
-        return view('rdv-telephone');// Nom de la route ou URL
+        
+        return view('rdv-telephone');
     }
 
 
@@ -178,23 +178,23 @@ class RdvController extends Controller
             throw new \CodeIgniter\Exceptions\PageNotFoundException('Médecin introuvable.');
         }
 
-        // Récupérer les rendez-vous réservés
+        
         $rdvs = $rdvModel->where('doctor_id', $doctor_id)->findAll();
 
-        // Grouper les horaires réservés par jour
+        
         $horaires_reserves = [];
         foreach ($rdvs as $rdv) {
             $jour = $rdv['jour'];
             $horaires_reserves[$jour][] = $rdv['horaire'];
         }
 
-        // Générer les 7 prochains jours
+        
         $jours = [];
         for ($i = 0; $i < 7; $i++) {
             $jours[] = Time::now()->addDays($i);
         }
 
-        // Générer les horaires pour tous les jours
+        
         $horaires_par_jour = [];
         foreach ($jours as $jour) {
             $date = $jour->toDateString();
@@ -244,7 +244,7 @@ class RdvController extends Controller
         $coordonneesModel = new CoordonneModel();
         $specialiteModel = new SpecialiteModel();
 
-        // Données du médecin
+        
         $medecin = [
             'nom' => "medecin2",
             'prenom' => "medprenom2",
@@ -256,12 +256,12 @@ class RdvController extends Controller
             'motDePasse' => password_hash("doctor2", PASSWORD_DEFAULT),
         ];
 
-        // Sauvegarde du médecin et récupération de son ID
+        
         $medecinModel->save($medecin);
         $medecinId = $medecinModel->getInsertID();
 
         if ($medecinId) {
-            // Ajouter des coordonnées pour le médecin
+            
             $coordonnees = [
                 'adresse' => ' Salam, Agadir',
                 'ville' => 'Agadir',
@@ -275,7 +275,7 @@ class RdvController extends Controller
             if (!$coordonneesModel->save($coordonnees))
                 echo "cooord";
 
-            // Ajouter une ou plusieurs spécialités pour le médecin
+            
             $specialites = [
                 [
                     'specialite' => 'Cardiologie',
@@ -301,7 +301,7 @@ class RdvController extends Controller
 
     public function doctorRdv()
     {
-        $doctorId = session()->get('doctor.id'); // L'ID du médecin dans la session
+        $doctorId = session()->get('doctor.id'); 
         $rdvs = $this->rdvModel->where('doctor_id', $doctorId)->findAll();
 
         return view('rdv/doctor_rdv', [
@@ -309,11 +309,11 @@ class RdvController extends Controller
         ]);
     }
 
-    // Créer un nouveau rendez-vous
+    
     public function create()
     {
         if ($this->request->getMethod() === 'post') {
-            // Validation des données de formulaire
+            
             $validation = \Config\Services::validation();
             $validation->setRules([
                 'motif' => 'required|string',
@@ -325,14 +325,14 @@ class RdvController extends Controller
                 return redirect()->back()->withInput()->with('validation', $validation->getErrors());
             }
 
-            // Enregistrer le rendez-vous
+            
             $data = [
                 'doctor_id' => $this->request->getPost('doctor_id'),
                 'patient_id' => session()->get('patient.id'),
                 'motif' => $this->request->getPost('motif'),
                 'horaire' => $this->request->getPost('horaire'),
                 'jour' => $this->request->getPost('jour'),
-                'etat' => 'en attente', // L'état initial du rendez-vous
+                'etat' => 'en attente', 
             ];
 
             $this->rdvModel->save($data);
@@ -340,14 +340,14 @@ class RdvController extends Controller
             return redirect()->to('/rdv')->with('success', 'Rendez-vous créé avec succès.');
         }
 
-        // Charger la vue pour créer un rendez-vous
+        
         $doctors = $this->medecinModel->findAll();
         return view('rdv/create', [
             'doctors' => $doctors,
         ]);
     }
 
-    // Modifier un rendez-vous existant
+    
     public function edit($id)
     {
         $rdv = $this->rdvModel->find($id);
@@ -357,7 +357,7 @@ class RdvController extends Controller
         }
 
         if ($this->request->getMethod() === 'post') {
-            // Validation des données de formulaire
+            
             $validation = \Config\Services::validation();
             $validation->setRules([
                 'motif' => 'required|string',
@@ -369,13 +369,13 @@ class RdvController extends Controller
                 return redirect()->back()->withInput()->with('validation', $validation->getErrors());
             }
 
-            // Mettre à jour le rendez-vous
+            
             $data = [
                 'id' => $id,
                 'motif' => $this->request->getPost('motif'),
                 'horaire' => $this->request->getPost('horaire'),
                 'jour' => $this->request->getPost('jour'),
-                'etat' => $this->request->getPost('etat'), // Modifier l'état si nécessaire
+                'etat' => $this->request->getPost('etat'), 
             ];
 
             $this->rdvModel->save($data);
@@ -383,13 +383,13 @@ class RdvController extends Controller
             return redirect()->to('/rdv')->with('success', 'Rendez-vous modifié avec succès.');
         }
 
-        // Charger la vue pour modifier un rendez-vous
+        
         return view('rdv/edit', [
             'rdv' => $rdv,
         ]);
     }
 
-    // Supprimer un rendez-vous
+    
     public function delete($id)
     {
         $rdv = $this->rdvModel->find($id);

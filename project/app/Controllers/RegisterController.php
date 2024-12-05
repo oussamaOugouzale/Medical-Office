@@ -18,7 +18,7 @@ class RegisterController extends BaseController
 
     public function register()
     {
-        // Définir les règles de validation
+        
         $validationRules = [
             'nom' => 'required|min_length[2]|max_length[50]',
             'prenom' => 'required|min_length[2]|max_length[50]',
@@ -30,11 +30,11 @@ class RegisterController extends BaseController
         ];
 
         if (!$this->validate($validationRules)) {
-            // Rediriger avec erreurs de validation et données saisies
+            
             return redirect()->back()->withInput()->with('validation', $this->validator->getErrors());
         }
 
-        // Vérifier si l'email existe déjà
+        
         $email = $this->request->getPost('email');
 
         $patientModel = new PatientModel();
@@ -44,11 +44,11 @@ class RegisterController extends BaseController
             $patientModel->where('email', $email)->first() ||
             $medecinModel->where('email', $email)->first()
         ) {
-            // Rediriger avec un message d'erreur pour l'email
+            
             return redirect()->back()->withInput()->with('emailExists', 'Un compte avec cet email existe déjà.');
         }
 
-        // Récupérer les données du formulaire
+        
         $data = [
             'nom' => $this->request->getPost('nom'),
             'prenom' => $this->request->getPost('prenom'),
@@ -60,10 +60,10 @@ class RegisterController extends BaseController
         ];
 
 
-        // Sauvegarder selon le type d'utilisateur
+        
 
 
-        // Rediriger après succès
+        
         if ($patientModel->save($data))
             return redirect('loginForm')->with('user_added', 'Votre compte a été créé avec succès!');
         else

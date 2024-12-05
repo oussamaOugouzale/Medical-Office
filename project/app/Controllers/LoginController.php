@@ -44,12 +44,12 @@ class LoginController extends BaseController
         $patientModel = new PatientModel();
         $medecinModel = new MedecinModel();
 
-        $emailFound = false; // Flag pour savoir si un email correspondant existe
+        $emailFound = false; 
         foreach ($userTypes as $role => $model) {
             $user = $model->where('email', $email)->first();
 
             if ($user) {
-                $emailFound = true; // L'email existe dans cette table
+                $emailFound = true; 
                 if (password_verify($password, $user['motDePasse'])) {
                     // Connexion réussie
                     session()->set([
@@ -65,22 +65,16 @@ class LoginController extends BaseController
                         case 'patient':
                             $patient = $patientModel->where('email', $email)->first();
 
-                            // Vérifiez si le patient existe
                             if ($patient) {
-                                // Récupérer le chemin de la photo à partir de la base de données
-                                $photoFileName = $patient['photo']; // Cela devrait être 'uploads/1733177444_cropped-abdelhak-Photoroom.png'
+                                $photoFileName = $patient['photo']; 
 
-                                // Vérifiez si le nom du fichier n'est pas vide
                                 if (!empty($photoFileName)) {
-                                    // Construire l'URL complète du fichier
-                                    $photoUrl = $photoFileName; // URL dynamique pour accéder au fichier
+                                    $photoUrl = $photoFileName; 
                                 } else {
-                                    // Image par défaut si aucune photo n'est définie
-                                    $photoUrl = 'uploads/default.jpg'; // Image par défaut dans le répertoire public
+                                    $photoUrl = 'uploads/default.jpg'; 
                                 }
                             } else {
-                                // Si le patient n'est pas trouvé, gérer le cas (par exemple, définir une image par défaut)
-                                $photoUrl = 'uploads/default.jpg'; // Image par défaut si le patient n'existe pas
+                                $photoUrl = 'uploads/default.jpg';
                             }
 
                             session()->set('patient_logged_in', true);
@@ -107,11 +101,9 @@ class LoginController extends BaseController
                                 'email' => $doctor['email'],
                                 'isLoggedIn' => true,
                             ]);
-                            // Vous pouvez ajouter une logique spécifique au médecin ici, si nécessaire
-                            return redirect()->route('dashboard'); // Redirection vers le dashboard du médecin
+                            return redirect()->route('dashboard'); 
                     }
                 } else {
-                    // Mot de passe incorrect
                     return redirect()->back()
                         ->withInput()
                         ->with('errors', ['password' => 'Mot de passe incorrect']);
@@ -119,25 +111,11 @@ class LoginController extends BaseController
             }
         }
 
-        // Si aucun utilisateur trouvé avec l'email
         return redirect()->back()
             ->withInput()
             ->with('errors', ['email' => 'Email non trouvé']);
     }
 
-
-    //     if (!$emailFound) {
-    //         // L'email n'existe pas dans aucune table
-    //         return redirect()->back()
-    //             ->withInput()
-    //             ->with('errors', ['email' => 'Aucun utilisateur trouvé avec cet email']);
-    //     }
-
-    //     // Si aucune correspondance n'a été trouvée
-    //     return redirect()->back()
-    //         ->withInput()
-    //         ->with('errors', ['email' => 'Email ou mot de passe invalide']);
-    // }
 
 
     public function logout()

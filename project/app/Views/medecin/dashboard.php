@@ -52,7 +52,6 @@
                             </a>
                         </div>
                         <ul class="main-nav">
-                            <!-- Ajoutez des éléments de menu ici si nécessaire -->
                         </ul>
                     </div>
                     <ul class="nav header-navbar-rht">
@@ -63,9 +62,7 @@
                 </nav>
             </div>
         </header>
-        <!-- /Header -->
 
-        <!-- Breadcrumb -->
         <div class="breadcrumb-bar-two">
             <div class="container">
                 <div class="row align-items-center inner-banner">
@@ -81,7 +78,6 @@
                 </div>
             </div>
         </div>
-        <!-- /Breadcrumb -->
 
         <div class="content">
             <div class="container">
@@ -164,7 +160,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- /Sidebar -->
                     <div class="col-lg-8 col-xl-9">
                         <div class="row">
                             <div class="col-xl-4 d-flex">

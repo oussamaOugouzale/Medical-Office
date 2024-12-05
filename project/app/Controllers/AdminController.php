@@ -14,7 +14,6 @@ class AdminController extends BaseController
     {
         $adminModel = new AdminModel();
 
-        // Données à insérer (par exemple, via un formulaire)
         $data = [
             'nom' => "admin",
             'prenom' => "adp",

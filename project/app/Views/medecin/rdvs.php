@@ -11,7 +11,6 @@
     <meta name="twitter:image" content="<?= base_url('assets/img/preview-banner.jpg') ?>">
     <link rel="icon" href="<?= base_url('assets/img/favicon.png') ?>" type="image/x-icon">
 
-    <!-- Styles -->
     <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.min.css') ?>">
     <link rel="stylesheet" href="<?= base_url('assets/plugins/fontawesome/css/fontawesome.min.css') ?>">
     <link rel="stylesheet" href="<?= base_url('assets/plugins/fontawesome/css/all.min.css') ?>">
@@ -187,7 +186,6 @@
                     </div>
 
                     <div class="tab-content appointment-tab-content">
-                        <!-- A Venir -->
                         <div class="tab-pane fade show active" id="pills-upcoming" role="tabpanel"
                             aria-labelledby="pills-upcoming-tab">
                             <?php if (isset($rdvs)): ?>
@@ -258,7 +256,6 @@ if ($patient): ?>
                             <?php endif; ?>
                         </div>
 
-                        <!-- Annulé -->
                         <div class="tab-pane fade" id="pills-cancel" role="tabpanel" aria-labelledby="pills-cancel-tab">
                             <?php if (isset($rdvs)): ?>
                                 <?php foreach ($rdvs as $rdv): ?>
@@ -328,7 +325,6 @@ if ($patient): ?>
                             <?php endif; ?>
                         </div>
 
-                        <!-- Complété -->
                         <div class="tab-pane fade" id="pills-complete" role="tabpanel"
                             aria-labelledby="pills-complete-tab">
                             <?php if (isset($rdvs)): ?>

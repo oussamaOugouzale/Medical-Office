@@ -52,7 +52,7 @@ class CoordonneModel extends Model
     {
         $coordinates = $this->where('doctor_id', $doctorId)->first();
 
-        // Retourner un tableau avec des valeurs vides si les coordonnées n'existent pas
+        
         return $coordinates ?: [
             'adresse' => '',
             'ville' => '',
@@ -65,14 +65,14 @@ class CoordonneModel extends Model
     }
     public function updateCoordinates($doctorId, $data)
     {
-        // Vérifier si des coordonnées existent pour ce médecin
+        
         $coordinates = $this->where('doctor_id', $doctorId)->first();
 
         if ($coordinates) {
-            // Mettre à jour les coordonnées existantes
+            
             return $this->update($coordinates['id'], $data);
         } else {
-            // Ajouter de nouvelles coordonnées
+            
             $data['doctor_id'] = $doctorId;
             return $this->insert($data);
         }
